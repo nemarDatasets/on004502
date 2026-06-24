@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Anticipatory differences between Attention and Expectation",
+  "description": "This dataset investigates the neural mechanisms underlying anticipatory processing by comparing attention and expectation effects during a cognitive task. The study employs neuroimaging to dissociate how top-down attentional control and predictive expectation modulate brain activity in preparation for upcoming stimuli, providing insights into fundamental mechanisms of anticipatory cognition.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,41 +12,6 @@
     "Carlos Gonzalez-Garcia": {},
     "Maria Ruz": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004502.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004502",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004502",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset investigates the neural mechanisms underlying anticipatory attention and expectation through electroencephalography (EEG). It contains raw EEG data from an experimental paradigm designed to dissociate anticipatory processes related to attention versus expectation, providing insights into how the brain prepares for upcoming events based on different cognitive states. This dataset is mirrored on NEMAR from OpenNeuro (ds004502).",
   "keywords": [
     {
       "term": "attention"
@@ -57,20 +23,46 @@
       "term": "anticipation"
     },
     {
-      "term": "EEG"
+      "term": "cognitive control"
     },
     {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "ERP"
+      "term": "neuroimaging"
     }
   ],
-  "source_hash": "b4a4aaa028a06df618b1ac891d62a7419402c431be88ade24d1f5d4840054fcd"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004502",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004502",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004502.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "63.8 GB (125 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "af8231ff79d8122aa875b1812f5193903b20282d2ea1fe545a7c26d7658df3d1"
 }

@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Anticipatory differences between Attention and Expectation",
-  "description": "This dataset investigates the neural mechanisms underlying anticipatory processing by comparing attention and expectation effects during a cognitive task. The study employs neuroimaging to dissociate how top-down attentional control and predictive expectation modulate brain activity in preparation for upcoming stimuli, providing insights into fundamental mechanisms of anticipatory cognition.",
+  "description": "This dataset contains EEG recordings examining anticipatory neural differences between attention and expectation processes. It was collected to investigate how these two cognitive mechanisms differentially modulate preparatory brain activity prior to stimulus presentation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,7 +14,12 @@
   },
   "keywords": [
     {
-      "term": "attention"
+      "term": "EEG"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "expectation"
@@ -23,10 +28,7 @@
       "term": "anticipation"
     },
     {
-      "term": "cognitive control"
-    },
-    {
-      "term": "neuroimaging"
+      "term": "cognitive neuroscience"
     }
   ],
   "related_identifiers": [
@@ -36,14 +38,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004502",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004502.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004502",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",

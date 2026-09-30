@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Anticipatory differences between Attention and Expectation",
-  "description": "This dataset contains EEG recordings examining anticipatory neural differences between attention and expectation processes. It was collected to investigate how these two cognitive mechanisms differentially modulate preparatory brain activity prior to stimulus presentation.",
+  "description": "EEG dataset investigating anticipatory neural differences between attention and expectation. The recordings were collected by a research group led by Maria Ruz and are organized in BIDS format. The dataset is mirrored on NEMAR from OpenNeuro (ds004502).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,9 +17,7 @@
       "term": "EEG"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "Attention"
     },
     {
       "term": "expectation"
@@ -54,7 +52,7 @@
     "eeg"
   ],
   "sizes": [
-    "63.8 GB (125 files)"
+    "59.44 GB (125 files)"
   ],
   "formats": [
     ".eeg",
